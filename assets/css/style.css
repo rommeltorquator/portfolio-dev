@@ -140,6 +140,18 @@ a{
 	color: #343a40;
 }
 
+.footer-nav {
+	list-style: none;
+}
+
+.footer-nav li {
+	padding-bottom: 5px;
+}
+
+.footer-nav a {
+	color: #6c757d;
+}
+
 /*#contact {
 	background-color: #a24a00;
 }*/
