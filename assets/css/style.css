@@ -1,0 +1,125 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #f2f2f2;
+	margin-top: 82px;
+}
+
+/*grey color #727c86*/
+/*orange color #F48328*/
+/*blue color #284ea4*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Comfortaa', cursive;
+	font-weight: bold;
+}
+
+p {
+	font-family: 'Raleway', sans-serif;
+	line-height: 1.8em;
+}
+
+a{
+	font-family: 'Raleway', sans-serif;
+}
+
+/*navigation part*/
+
+.navbar {
+	background-color: #F58426;
+	/*opacity: 0.9;*/
+	/*box-shadow: 1px 5px 2px #A24A00;*/
+	border-bottom: 2px solid #A24A00;
+}
+
+.nav-item {
+	font-size: 18px;
+	margin-right: 15px;
+}
+
+.navbar-toggler {
+  border-color: #A24A00;
+} 
+
+.hamburger {
+	color: #A24A00;
+	font-size: 22px;
+}
+
+.link-color {
+	color: #A24A00;
+}
+
+
+/*background image part*/
+
+.main-bg {
+	background: url(../../assets/images/bg.jpg) no-repeat fixed center;
+	background-size: cover;
+	border-bottom: 2px solid #0b286d;
+/*	min-height: 700px;
+	position: relative;*/
+}
+
+.overlay {
+	background: rgba(1,40,109,0.8);
+	height: 100%;
+	width: 100%;
+}
+
+.main-container {
+	width: 50%;
+	margin: 0 auto;
+}
+
+/*sub parts*/
+
+#skills {
+	background-color: #284ea4;
+	/*border-bottom: 2px solid #0b286d;*/
+	/*border-top: 2px solid #0b286d;*/
+}
+
+.icon-1 {
+	font-size: 350px;
+	color: #343a40;
+}
+
+.icon-2 {
+	font-size: 350px;
+	color: #f2f2f2;
+}
+
+.portfolio-button {
+	background-color: #F48328;
+}
+
+.footer-links {
+	list-style: none;
+}
+
+.footer-links li {
+	display: inline;
+	padding: 30px;
+}
+
+.footer-links li i {
+	font-size: 30px;
+}
+
+.footer-links li a {
+	color: #343a40;
+}
+
+/*#contact {
+	background-color: #a24a00;
+}*/
