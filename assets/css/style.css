@@ -57,7 +57,7 @@ a{
 }
 
 .nav-item {
-	font-size: 18px;
+	font-size: 20px;
 	margin-right: 15px;
 }
 
@@ -92,13 +92,15 @@ a{
 }
 
 .main-container {
-	width: 50%;
+	width: 55%;
 	margin: 0 auto;
+	padding: 100px 0;
 }
 
 .main-container2 {
 	width: 80%;
 	margin: 0 auto;
+	padding: 100px 0;
 }
 
 /*sub parts*/
@@ -145,7 +147,8 @@ a{
 }
 
 .footer-nav li {
-	padding-bottom: 5px;
+	padding: 5px;
+	display: inline;
 }
 
 .footer-nav a {
@@ -155,3 +158,38 @@ a{
 /*#contact {
 	background-color: #a24a00;
 }*/
+
+.button-border-radius {
+	border-radius: 35px;
+}
+
+
+
+
+/*media querie*/
+
+@media only screen and (min-width: 100px) and (max-width: 576px) {
+	p {
+		font-size: 90%;
+	}
+
+	h1 {
+		font-size: 40px;
+	}
+
+	h2 {
+		font-size: 25px;
+	}
+
+	h5 {
+		font-size: 16px;
+	}
+
+	a {
+		font-size: 90%;
+	}
+
+	.same-size {
+		font-size: 32px;
+	}
+}
