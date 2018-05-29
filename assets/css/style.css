@@ -6,7 +6,7 @@
 
 body {
 	background-color: #f2f2f2;
-	margin-top: 82px;
+	margin-top: 81px;
 }
 
 /*grey color #727c86*/
@@ -34,15 +34,15 @@ a{
 
 /*Main picture*/
 .main-pic {
-	width: 250px;
-	height: 250px;
+	width: 300px;
+	height: 300px;
 	border-radius: 100%;
 	margin: 0 auto;
 }
 
 .main-pic2 {
-	width: 200px;
-	height: 200px;
+	width: 220px;
+	height: 220px;
 	border-radius: 100%;
 	margin: 0 auto;
 }
@@ -52,8 +52,16 @@ a{
 .navbar {
 	background-color: #F58426;
 	/*opacity: 0.9;*/
-	/*box-shadow: 1px 5px 2px #A24A00;*/
-	border-bottom: 2px solid #A24A00;
+	box-shadow: 1px 1px 1px #A24A00;
+	/*border-bottom: 2px solid #A24A00;*/
+}
+
+.navbar-nav li a {
+	color: #fff;
+}
+
+.navbar-nav li a:hover, .navbar-nav li a:active {
+	color: #a24800;
 }
 
 .nav-item {
@@ -112,12 +120,12 @@ a{
 }
 
 .icon-1 {
-	font-size: 350px;
+	font-size: 400px;
 	color: #343a40;
 }
 
 .icon-2 {
-	font-size: 350px;
+	font-size: 400px;
 	color: #f2f2f2;
 }
 
@@ -207,6 +215,7 @@ a{
     background-color: rgba(32, 152, 209, 0.75);
   }
 }
+
 .hvr-back-pulse {
   display: inline-block;
   vertical-align: middle;
@@ -219,6 +228,7 @@ a{
   -webkit-transition-property: color, background-color;
   transition-property: color, background-color;
 }
+
 .hvr-back-pulse:hover, .hvr-back-pulse:focus, .hvr-back-pulse:active {
   -webkit-animation-name: hvr-back-pulse;
   animation-name: hvr-back-pulse;
@@ -232,5 +242,35 @@ a{
   animation-iteration-count: infinite;
   background-color: #2098D1;
   background-color: #2098d1;
+  color: white;
+}
+
+/*For navs only*/
+
+.hvr-back-pulse2 {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  overflow: hidden;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  /*-webkit-transition-property: color, background-color;
+  transition-property: color, background-color;*/
+}
+.hvr-back-pulse2:hover, .hvr-back-pulse2:focus, .hvr-back-pulse2:active {
+ /* -webkit-animation-name: hvr-back-pulse;
+  animation-name: hvr-back-pulse;*/
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-delay: 0.5s;
+  animation-delay: 0.5s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  /*background-color: #2098D1;
+  background-color: #2098d1;*/
   color: white;
 }
